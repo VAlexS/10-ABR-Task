@@ -32,6 +32,8 @@ public class CheckingAccount extends AbstractBankAccount {
             throw new InsufficientFundsException("Fondos insuficientes. \n Tu saldo es de: " + getBalance() + "Y el límite de sobregiro es: " + overdraftLimit);
         }
     }
+
+
 }
 
 
